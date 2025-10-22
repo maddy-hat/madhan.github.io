@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madhan Kumar — Cybersecurity Portfolio</title>
+<meta name="description" content="Madhan Kumar — Aspiring Cyber Security Analyst. Projects, internships, skills, and certifications.">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white relative overflow-x-hidden font-mono">
+
+<!-- Hacker-style animated background -->
+<canvas id="matrixCanvas" class="absolute inset-0 z-0"></canvas>
+<div class="absolute inset-0 bg-gradient-to-b from-black/80 via-blue-900/50 to-black/80 z-10"></div>
+
+<!-- Header -->
+<header class="z-20 relative shadow-md shadow-blue-900/50">
+<nav class="container mx-auto flex justify-between items-center py-4">
+<h1 class="text-2xl font-bold text-blue-400 tracking-wider">Madhan Kumar</h1>
+<ul class="flex gap-6 text-blue-200 font-medium">
+<li><a href="#about" class="hover:text-blue-400 transition">About</a></li>
+<li><a href="#education" class="hover:text-blue-400 transition">Education</a></li>
+<li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
+<li><a href="#projects" class="hover:text-blue-400 transition">Projects</a></li>
+<li><a href="#internships" class="hover:text-blue-400 transition">Internships</a></li>
+<li><a href="#certifications" class="hover:text-blue-400 transition">Certifications</a></li>
+<li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="container mx-auto relative z-20 flex flex-col md:flex-row items-center py-24 gap-10">
+<div class="flex-1 space-y-6">
+<h2 class="text-5xl md:text-6xl font-extrabold animate-fadeInDown text-blue-400 tracking-wide glitch-text">Hello, I'm Madhan Kumar</h2>
+<p class="text-blue-200 text-lg max-w-xl animate-fadeInUp leading-relaxed">
+Aspiring Cyber Security Analyst | Penetration Testing & Ethical Hacking | EEE & Cyber Security Graduate. Passionate about ethical hacking, network defense, automation with Python, and embedded systems security.
+</p>
+<div class="flex gap-4 mt-4 animate-fadeInUp">
+<a href="#projects" class="bg-blue-500 hover:bg-blue-600 transition px-6 py-3 rounded-lg font-semibold text-lg shadow-lg shadow-blue-500/50">View Projects</a>
+<a href="#contact" class="border border-blue-500 hover:border-blue-400 px-6 py-3 rounded-lg font-semibold text-lg text-blue-200 hover:text-blue-400 transition shadow-md">Contact Me</a>
+</div>
+
+<section id="quotes" class="container mx-auto py-16 relative z-20">
+  <canvas id="quotesMatrix" class="absolute inset-0 z-0"></canvas>
+  <h2 class="text-3xl font-bold text-blue-400 mb-6 glitch-text animate-fadeInLeft relative z-10">Cyber Insights</h2>
+  <div class="terminal bg-blue-900/40 border border-blue-600 rounded-lg p-6 font-mono text-blue-300 text-lg shadow-lg animate-fadeInUp relative z-10">
+    <span id="quoteText"></span><span class="cursor">|</span>
+  </div>
+</section>
+
+
+<!-- Hacker Ticker -->
+<div class="overflow-hidden border border-blue-700 rounded-lg mt-6">
+<div class="ticker whitespace-nowrap animate-ticker py-2 text-blue-400 font-mono text-sm">
+Penetration Testing &nbsp;&bull;&nbsp; Vulnerability Assessment &nbsp;&bull;&nbsp; Network Monitoring &nbsp;&bull;&nbsp; Python Automation &nbsp;&bull;&nbsp; IoT Security &nbsp;&bull;&nbsp; Ethical Hacking
+</div>
+</div>
+</div>
+
+<!-- Right photo -->
+<div class="flex-1 flex justify-center md:justify-end animate-fadeInRight">
+<div class="w-64 h-64 rounded-xl overflow-hidden border-4 border-blue-400 shadow-lg relative hover:scale-105 transition-transform duration-500">
+<img src="your-photo.jpg" alt="Madhan Kumar Photo" class="w-full h-full object-cover">
+<div class="absolute inset-0 bg-gradient-to-tr from-blue-600/20 to-black/30"></div>
+</div>
+</div>
+</section>
+
+<!-- Executive Summary -->
+<section id="about" class="container mx-auto py-16 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-6 animate-fadeInLeft glitch-text">Executive Summary</h2>
+<p class="text-blue-200 text-lg animate-fadeInLeft leading-relaxed">
+Entry-level Cyber Security professional equipped with solid fundamentals in penetration testing, network monitoring, and automation using Python. I am a tech-driven learner dedicated to enhancing system security, exploring emerging defense techniques, and applying ethical hacking skills for practical solutions.
+</p>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="container mx-auto py-16 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-6 animate-fadeInLeft glitch-text">Education</h2>
+<div class="grid md:grid-cols-2 gap-8 text-blue-200 animate-fadeInUp">
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition">
+<h3 class="text-xl font-semibold text-blue-300 mb-2">Bachelor of Engineering — Electrical and Electronics Engineering</h3>
+<p>Sengunthar Engineering College (Anna University) | 2021-2025 | CGPA: 9.3/10</p>
+</div>
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition">
+<h3 class="text-xl font-semibold text-blue-300 mb-2">Bachelor of Engineering — Minors in Cyber Security</h3>
+<p>Sengunthar Engineering College (Anna University) | 2022-2024 | CGPA: 9.3/10</p>
+</div>
+</div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="container mx-auto py-16 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-10 animate-fadeInLeft glitch-text">Skills</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp hover:scale-105 duration-300">
+<h3 class="text-xl font-semibold text-blue-300 mb-4">Cyber Security Skills</h3>
+<ul class="space-y-2 text-blue-200">
+<li>Burp Suite, Wireshark, Nmap, OWASP ZAP Proxy, Metasploit</li>
+<li>Vulnerability Assessment: Scanning, reporting, and mitigation of OWASP Top 10 vulnerabilities</li>
+</ul>
+</div>
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp hover:scale-105 duration-300">
+<h3 class="text-xl font-semibold text-blue-300 mb-4">Programming & Scripting</h3>
+<ul class="space-y-2 text-blue-200">
+<li>Python, Bash Shell (basic)</li>
+<li>Database: SQL fundamentals</li>
+</ul>
+</div>
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp hover:scale-105 duration-300">
+<h3 class="text-xl font-semibold text-blue-300 mb-4">Networking & Systems</h3>
+<ul class="space-y-2 text-blue-200">
+<li>TCP/IP, Firewalls, VPNs, Linux commands, Windows OS administration</li>
+<li>Automation & Debugging: Python automation scripts, troubleshooting</li>
+</ul>
+</div>
+</div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="container mx-auto py-16 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-10 animate-fadeInLeft glitch-text">Projects</h2>
+<div class="grid md:grid-cols-2 gap-8">
+<!-- Project Cards -->
+<div class="project-card bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp cursor-pointer">
+<h3 class="text-xl font-semibold text-blue-300 mb-2 glitch-text">Zero Trust Network Access (ZTNA) Implementation</h3>
+<p class="text-blue-200 mb-2">Implemented a Zero Trust security model with MFA and granular access control, reducing attack surface and strengthening network defense.</p>
+<span class="text-blue-400 font-semibold">Tech: Network Security, MFA, Access Control</span>
+</div>
+
+<div class="project-card bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp cursor-pointer">
+<h3 class="text-xl font-semibold text-blue-300 mb-2 glitch-text">Cyber Breach Analyzer — Penetration Testing Framework</h3>
+<p class="text-blue-200 mb-2">Automated Python scanner detecting SQLi, XSS, and CSRF vulnerabilities. Applied OWASP Top 10 methodology to improve testing accuracy.</p>
+<span class="text-blue-400 font-semibold">Tech: Python, Web Security</span>
+</div>
+
+<div class="project-card bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp cursor-pointer">
+<h3 class="text-xl font-semibold text-blue-300 mb-2 glitch-text">Packet Sniffer & Keylogger (Educational Tool)</h3>
+<p class="text-blue-200 mb-2">Python-based packet analyzer and keylogger demo highlighting endpoint vulnerabilities with defensive countermeasures.</p>
+<span class="text-blue-400 font-semibold">Tech: Python, Networking</span>
+</div>
+
+<div class="project-card bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp cursor-pointer">
+<h3 class="text-xl font-semibold text-blue-300 mb-2 glitch-text">Bank Management System (Python + MySQL)</h3>
+<p class="text-blue-200 mb-2">Secure database-driven application with user authentication and account tracking, strengthening secure programming and SQL integration skills.</p>
+<span class="text-blue-400 font-semibold">Tech: Python, MySQL</span>
+</div>
+
+<div class="project-card bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition animate-fadeInUp cursor-pointer">
+<h3 class="text-xl font-semibold text-blue-300 mb-2 glitch-text">Car Wash Automation Using PLC & HMI</h3>
+<p class="text-blue-200 mb-2">Automated car wash sequence using ladder logic and SCADA, demonstrating real-time control and fault handling.</p>
+<span class="text-blue-400 font-semibold">Tech: PLC, HMI, SCADA</span>
+</div>
+
+</div>
+</section>
+
+<!-- Internships Section -->
+<section id="internships" class="container mx-auto py-16 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-10 animate-fadeInLeft glitch-text">Internships & Training</h2>
+<div class="grid md:grid-cols-3 gap-8 text-blue-200 animate-fadeInUp">
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition">
+<h3 class="text-xl font-semibold text-blue-300 mb-2">Cyber Security Intern</h3>
+<p>Virtual Program by EduSkills (3 months)</p>
+<p>Learned vulnerability assessment, penetration testing, and cyber hygiene principles.</p>
+</div>
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition">
+<h3 class="text-xl font-semibold text-blue-300 mb-2">Embedded Developer Intern</h3>
+<p>Virtual Program by EduSkills (3 months)</p>
+<p>Gained experience in system-level testing, firmware fundamentals, and embedded security mechanisms.</p>
+</div>
+<div class="bg-blue-900/50 p-6 rounded-xl border border-blue-600 shadow-lg hover:shadow-blue-500/50 transition">
+<h3 class="text-xl font-semibold text-blue-300 mb-2">PLC & HMI Programming</h3>
+<p>Developed programs using Siemens TIA Portal and SCADA systems for real-time industrial automation and fault detection.</p>
+</div>
+</div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="container mx-auto py-16 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-10 animate-fadeInLeft glitch-text">Certifications</h2>
+<ul class="space-y-4 text-blue-200 animate-fadeInUp">
+<li>Certified Ethical Hacking and Penetration Testing — CappricioSec University</li>
+<li>WiFi Hacking and Pentesting 101 — CappricioSec University</li>
+<li>Web Development and AI Tools — Alpha Tech Academy</li>
+<li>Cyber Security Virtual Internship — EduSkills</li>
+</ul>
+<p class="mt-4 text-blue-300 animate-fadeInUp">
+Gained practical exposure to ethical hacking techniques, WiFi penetration testing, web development, AI-assisted tools, and cybersecurity fundamentals applied in embedded and networked environments.
+</p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mx-auto py-20 relative z-20">
+<h2 class="text-3xl font-bold text-blue-400 mb-10 animate-fadeInLeft glitch-text">Contact Me</h2>
+<div class="grid md:grid-cols-2 gap-10">
+<div class="space-y-4 animate-fadeInLeft text-blue-200">
+<p>Email, phone or connect via LinkedIn / GitHub:</p>
+<p><i class="fa-solid fa-envelope text-blue-400 mr-2"></i> madhancys@gmail.com</p>
+<p><i class="fa-solid fa-phone text-blue-400 mr-2"></i> 754006899</p>
+<p><i class="fa-solid fa-location-dot text-blue-400 mr-2"></i> Chennai, Tamilnadu</p>
+<p><i class="fa-brands fa-github text-blue-400 mr-2"></i> <a href="https://github.com/maddy-hat?tab=repositories" class="text-blue-300 hover:text-blue-400">github.com/maddy-hat</a></p>
+<p><i class="fa-brands fa-linkedin text-blue-400 mr-2"></i> <a href="https://www.linkedin.com/in/madhan-kumar-348625236/" class="text-blue-300 hover:text-blue-400">linkedin.com/in/madhan-kumar</a></p>
+</div>
+<form class="space-y-4 animate-fadeInRight" onsubmit="return handleContact(event)">
+<input type="text" id="name" placeholder="Your Name" class="w-full p-3 rounded-lg bg-blue-900/50 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+<input type="email" id="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-blue-900/50 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400" required>
+<textarea id="message" rows="5" placeholder="Message" class="w-full p-3 rounded-lg bg-blue-900/50 border border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400" required></textarea>
+<button type="submit" class="px-6 py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-semibold transition shadow-lg">Send</button>
+</form>
+</div>
+</section>
+
+<footer class="text-blue-200 text-center py-6 relative z-20 shadow-inner shadow-blue-800/50">
+© <span id="year"></span> Madhan Kumar — Built with curiosity & code
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
